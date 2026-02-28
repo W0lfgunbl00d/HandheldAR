@@ -63,13 +63,13 @@ public class BoardPlacement : MonoBehaviour
             if (board == null)
             {
                 board = Instantiate(boardPrefab, hitPose.position, hitPose.rotation);
-                board.transform.Rotate(-90, 0, 0);
+                board.transform.Rotate(90, 0, 0);
                 Debug.Log("Board Spawned!");
             }
             else
             {
                 board.transform.SetPositionAndRotation(hitPose.position, hitPose.rotation);
-                board.transform.Rotate(-90, 0, 0);
+                board.transform.Rotate(90, 0, 0);
                 Debug.Log("Board Repositioned!");
             }
         }
