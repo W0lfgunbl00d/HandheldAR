@@ -190,5 +190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97779ebd51adf804591bd969829ad531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPlacement
-  prefabToSpawn: {fileID: 6430124240278781381, guid: 9198de054be3a3449aeda5c836cda40f, type: 3}
+  prefabToSpawn: {fileID: 6257059940163640795, guid: ac1f0d0e0593bd54b82ede30d083f554, type: 3}
   markerImageName: marker
+  prefabEffect: {fileID: 885646557559631048, guid: cbcb333402902dd4783e057273bc6319, type: 3}
